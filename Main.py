@@ -20,3 +20,5 @@ elif operation == "/":
 elif operation == "*":
     print(f"{first_value} * {second_value} "
           f"= {first_value / second_value}")
+else:
+    print("Вы где-то ошиблись...")
