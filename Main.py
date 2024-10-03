@@ -8,3 +8,12 @@ operation = input("Введите символ операции: ")
 if operation == "+":
     print(f"{first_value} + {second_value} "
           f"= {first_value + second_value}")
+elif operation == "-":
+    print(f"{first_value} - {second_value} "
+          f"= {first_value - second_value}")
+elif operation == "/":
+    print(f"{first_value} / {second_value} "
+          f"= {first_value / second_value}")
+elif operation == "*":
+    print(f"{first_value} * {second_value} "
+          f"= {first_value / second_value}")
